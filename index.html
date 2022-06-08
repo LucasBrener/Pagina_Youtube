@@ -29,9 +29,9 @@
             <img src="./Arquivos de imagens/logo.png" alt="Logo Youtube" class="youtubeLogo">
         </a>
 
-        <form class="BarraDePesquisa">
-            <input class="BotaoDePesquisa" type="search" placeholder="Descubra videos novos" aria-label="Search">
-            <button type="submit" class="BotãoDePesquisa">
+        <form class="barraDePesquisa">
+            <input class="botaoDePesquisa" type="search" placeholder="Descubra videos novos" aria-label="Search">
+            <button type="submit" class="botaoDePesquisa">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
                     viewBox="0 0 16 16">
                     <path
@@ -59,7 +59,7 @@
             </a>
             <a href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                    class="bi bi-bell-fill" viewBox="0 0 16 16" alt="notificações">
+                    class="bi bi-bell-fill" viewBox="0 0 16 16" alt="notificacoes">
                     <path
                         d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
                 </svg>
@@ -67,6 +67,7 @@
         </div>
     </header>
     <section class="categoriasDeVideos">
+        <!--Botões das categorias de vídeo-->
         <div class="tiposDeCategoria">
             <button class="categoria-active">Tudo</button>
             <button class="categoria">Games</button>
@@ -85,7 +86,23 @@
     <section class="videos">
         <div class="video-section"> 
             <article class="video-container">
-                <a href="#" class="thumbnail" data-duration="12:24"></a>
+                <a href="#" class="thumbnail" data-duration="12:24" src="./Arquivos de imagens/psicoterapia.jpeg"> 
+                </a>
+
+                <div class="informacoesDoVideo">
+                    <a href="#">
+                        <img src="./Arquivos de imagens/fotoDePerfil.jpg" alt="fotoDePerfil">
+                    </a>
+                    <div class="video-details">
+                         <a href="#">Título de Vídeo</a>
+                         <a href="#">Lucas Brener</a>
+                         <div class="video-metadata">
+                                <span>2.5M visualizações</span>
+                                •
+                                <span>3 semanas atrás</span>
+                         </div>
+                    </div> 
+                </div>
             </article>
         </div>
 
